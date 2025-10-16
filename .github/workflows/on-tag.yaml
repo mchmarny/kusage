@@ -25,7 +25,7 @@ jobs:
             **/go.sum
 
       - name: Install Syft
-        uses: anchore/sbom-action/download-syft@da167eac915b4e86f08b264dbdbc867b61be6f0c  # v0.20.5
+        uses: anchore/sbom-action/download-syft@d8a2c0130026bf585de5c176ab8f7ce62d75bf04  # v0.20.7
         with:
           syft-version: "v1.32.0"
 
